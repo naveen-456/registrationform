@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            background: rgba(27, 18, 233, 0.5);
+        }
+     div.main{
+         width: 400px;
+         margin:100px auto 100px auto;
+         
+     }   
+     label{
+        width:80px;
+        display:inline-block;
+        text-align:left;
+        margin-left:30px;
+
+     }
+     .form{
+        background-color: rgba(40, 18, 233, 0.5);
+        width: 400px;
+        padding:60px;
+        font-style: normal;
+        border-radius: 20px;
+        box-shadow: 20px black;
+        text-align: left;
+
+     }
+     #select{
+        
+        border-radius: 10px;
+     }
+     #lan{
+        padding: 10px;
+        border-radius: 5px;
+        margin:5px 5px;
+        outline: none;
+        box-sizing: border-box;
+     }
+     #submit{
+        width: 75%;
+        margin-top: 50px;
+        padding: 5px;
+        border-style: none;
+        border-radius:5px;
+     }
+    </style>
+    
+<head>
+    <title>registration form</title>
+    
+</head>
+ <body>
+    <div class="main">
+     <div class="form">
+      <h1><b>Fill the Form</b></h1>
+       <label for="box">Name:</label> 
+       <input type="text" id="box"placeholder="your name">
+       <br><br>
+
+       <label for="box">Email:</label>
+       <input type="email" id="box" placeholder="your email">
+       <br><br>
+
+       <label for="box">Password:</label>
+       <input type="password" id="box" placeholder="password">
+       <br><br>
+
+       <label for="box">Phone Number:</label>
+       <input type="number" id="box">
+       <br><br>
+
+       <label for="gender">Gender:</label>
+        Male:<input type="radio" id="gender">
+        Female:<input type="radio" id="gender">
+        Other:<input type="radio" id="gender">
+       <br><br>
+
+       <label for="lang">Language:</label>
+       <select name="Language" id="lang">
+       <option>Select</option>
+
+        <option value="tel">Telugu</option>
+        <option value="hin">Hindi</option>
+        <option value="Eng">English</option>
+
+       </select>
+       <br><br>
+
+       <label for="z">Zipcode:</label>
+       <input type="number" id="z" placeholder="Zipcode">
+       <br><br>
+       <label for="abt">About:</label>
+       <textarea name="Message" id="abt" placeholder="write about yourself"></textarea>
+       <br><br>
+       <input type="button" value="Register" id="submit">
+    </div></div>
+</body>
+</html>
